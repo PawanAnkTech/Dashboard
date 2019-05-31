@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>SweetBird</title>
+    <link rel="icon" href="img/favicon.ico" type="image/icon"/>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css/animate.css" /> -->
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body class="collection-single">
+    <header>
+      <div class="header-top navbar navbar-expand navbar-dark bg-dark">
+        <div class="container">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"> <a class="nav-link text-white" href="#">MY SELF</a> </li>
+            <li class="nav-item"> <a class="nav-link text-white" href="javascript:void(0);">Product <span class="badge badge-light rounded-circle">2</span></a> </li>
+            <li class="nav-item"> <a class="nav-link text-white" href="#">Recipes <span class="badge badge-light rounded-circle">5</span></a> </li>
+            <li class="nav-item"> <a class="nav-link text-white rounded-pill" href="#">save</a> </li>
+          </ul>
+        </div>
+      </div>
+      <div class="header-navigation relative">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+          <div class="menu-wrapper d-block w-100">
+            <div class="brand mb-lg-3 d-flex">
+              <a class="navbar-brand m-lg-auto " href="#"><img src="img/sweetbird-logo.png" alt="logo-image" /></a>
+              <div class="toggler-wrapper ml-auto mt-auto mb-auto d-lg-none">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#Menu-mobile" aria-label="Toggle navigation" href="#Menu-mobile">
+                  <span class="line top"></span>
+                  <span class="line middle"></span>
+                  <span class="line last"></span>
+                </button>
+              </div>
+            </div>
+            <div class="collapse navbar-collapse" id="Menu-mobile">
+              <ul class="navbar-nav m-auto">
+                <li class="nav-item"> <a class="nav-link" href="index.html">Home</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#">Collection</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#">Recipes</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#">About us</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#">Support</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#">Blog</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#">Contact</a> </li>
+                <li class="nav-item">
+                  <a class="nav-link dropdown-toggle pl-md-0" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#"> <i class="fa fa-search"></i> Search</a>
+                  <div class="dropdown-menu dropdown-search border-0 rounded-0"  aria-labelledby="navbarDropdown">
+                    <form class="search-form w-50 m-lg-auto" action="index.html" method="post">
+                      <div class="form-group w-100 d-flex">
+                        <input class="form-control border-0 rounded-0" type="text" name="" placeholder="Search site and recipes" value="">
+                        <button type="button" class="btn btn-default search-button rounded-0 custom-btn relative" name="button"> <i class="fa fa-search"> </i>Search </button>
+                      </div>
+                    </form>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+    </div>
+    <main class="main">
+      <section id="Our-collection" class="section collection pb-5 relative">
+        <div class="bg-img left absolute">
+          <img src="img/detail-about/about-top-left.png" alt="collection image-background" />
+        </div>
+        <div class="bg-img right absolute">
+          <img src="img/detail-about/about-right.png" alt="collection image-background" />
+        </div>
+        <div class="bg-img left-bottom absolute">
+          <img src="img/detail-about/about-bottom-left.png" alt="collection image-background" />
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10 offset-lg-1">
+              <div class="section-heading mb-5" data-aos="zoom-in">
+                <h1 class="title text-center display-1 pt-5 p-3 relative">Our Collections</h1>
+              </div>
+              <div class="" id="accordian-tab">
+                <div class="list-group flex-row mb-5 mr-4 ml-4" id="myList" role="tablist">
+                  <a class="list-group-item list-group-item-action active ml-auto text-center" data-toggle="list" href="#Overview" role="tab">Overview</a>
+                  <a class="list-group-item list-group-item-action text-center" data-toggle="list" href="#Syrups" role="tab">Syrups</a>
+                  <a class="list-group-item list-group-item-action text-center" data-toggle="list" href="#Purees" role="tab">Purees</a>
+                  <a class="list-group-item list-group-item-action text-center" data-toggle="list" href="#Smoothies" role="tab">Smoothies</a>
+                  <a class="list-group-item list-group-item-action mr-auto text-center" data-toggle="list" href="#Frappes" role="tab">Frappes</a>
+                </div>
+                <div class="tab-content">
+                  <div id="Overview" class="tab-pane fade show in active" role="tabpannel">
+                    <div class="row mr-md-3 ml-md-3">
+                      <div class=" col-md-6 mb-4 d-flex" data-aos="fade-down">
+                        <div class="card bg-peach rounded-0 border-0">
+                          <img class="card-img-top rounded-0" src="img/b.jpg" alt="Card image cap">
+                          <div class="card-body  text-center pr-5 pl-5 d-flex flex-column" data-aos="fade-up">
+                            <h5 class="card-title text-white">Syrups</h5>
+                            <p class="card-text mt-auto">Registered for vegitarians & vagans by The Vagen Socity</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class=" col-md-6 mb-4 d-flex" data-aos="fade-down">
+                        <div class="card bg-peach rounded-0 border-0">
+                          <img class="card-img-top rounded-0" src="img/c.jpg" alt="Card image cap-2">
+                          <div class="card-body  text-center pr-5 pl-5 d-flex flex-column" data-aos="fade-up">
+                            <h5 class="card-title text-white">Purees</h5>
+                            <p class="card-text mt-auto">Versatile ingredient for all your cold drink needs</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class=" col-md-6 mb-4  d-flex" data-aos="fade-down">
+                        <div class="card bg-peach rounded-0 border-0">
+                          <img class="card-img-top rounded-0" src="img/b.jpg" alt="Card image cap-3">
+                          <div class="card-body  text-center pl-5 pr-5 d-flex flex-column" data-aos="fade-up">
+                            <h5 class="card-title text-white">Smoothies</h5>
+                            <p class="card-text mt-auto">Made using real fruit picture in 8 sensational flavours</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class=" col-md-6 mb-4 d-flex" data-aos="fade-down">
+                        <div class="card bg-peach rounded-0 border-0">
+                          <img class="card-img-top rounded-0" src="img/c.jpg" alt="Card image cap-4">
+                          <div class="card-body  text-center pl-5 pr-5 d-flex flex-column" data-aos="fade-up">
+                            <h5 class="card-title text-white">Frappes</h5>
+                            <p class="card-text mt-auto">Made with 100% fruit and vegitables with naturelly occurring sugars</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="Syrups" class="tab-pane fade" role="tabpannel">
+                    <div class="row mr-md-3 ml-md-3">
+                      <div class=" col-md-6 mb-4 d-flex" data-aos="fade-down">
+                        <div class="card bg-peach rounded-0 border-0">
+                          <img class="card-img-top rounded-0" src="img/b.jpg" alt="Card image cap">
+                          <div class="card-body  text-center pr-5 pl-5 d-flex flex-column" data-aos="fade-up">
+                            <h5 class="card-title text-white">Syrups</h5>
+                            <p class="card-text mt-auto">Registered for vegitarians & vagans by The Vagen Socity</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class=" col-md-6 mb-4 d-flex" data-aos="fade-down">
+                        <div class="card bg-peach rounded-0 border-0">
+                          <img class="card-img-top rounded-0" src="img/c.jpg" alt="Card image cap-2">
+                          <div class="card-body  text-center pr-5 pl-5 d-flex flex-column" data-aos="fade-up">
+                            <h5 class="card-title text-white">Purees</h5>
+                            <p class="card-text mt-auto">Versatile ingredient for all your cold drink needs</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class=" col-md-6 mb-4  d-flex" data-aos="fade-down">
+                        <div class="card bg-peach rounded-0 border-0">
+                          <img class="card-img-top rounded-0" src="img/b.jpg" alt="Card image cap-3">
+                          <div class="card-body  text-center pl-5 pr-5 d-flex flex-column" data-aos="fade-up">
+                            <h5 class="card-title text-white">Smoothies</h5>
+                            <p class="card-text mt-auto">Made using real fruit picture in 8 sensational flavours</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class=" col-md-6 mb-4 d-flex" data-aos="fade-down">
+                        <div class="card bg-peach rounded-0 border-0">
+                          <img class="card-img-top rounded-0" src="img/c.jpg" alt="Card image cap-4">
+                          <div class="card-body  text-center pl-5 pr-5 d-flex flex-column" data-aos="fade-up">
+                            <h5 class="card-title text-white">Frappes</h5>
+                            <p class="card-text mt-auto">Made with 100% fruit and vegitables with naturelly occurring sugars</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="Purees" class="tab-pane fade" role="tabpannel">
+                    <div class="row mr-md-3 ml-md-3">
+                      <div class=" col-md-6 mb-4 d-flex" data-aos="fade-down">
+                        <div class="card bg-peach rounded-0 border-0">
+                          <img class="card-img-top rounded-0" src="img/b.jpg" alt="Card image cap">
+                          <div class="card-body  text-center pr-5 pl-5 d-flex flex-column" data-aos="fade-up">
+                            <h5 class="card-title text-white">Syrups</h5>
+                            <p class="card-text mt-auto">Registered for vegitarians & vagans by The Vagen Socity</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class=" col-md-6 mb-4 d-flex" data-aos="fade-down">
+                        <div class="card bg-peach rounded-0 border-0">
+                          <img class="card-img-top rounded-0" src="img/c.jpg" alt="Card image cap-2">
+                          <div class="card-body  text-center pr-5 pl-5 d-flex flex-column" data-aos="fade-up">
+                            <h5 class="card-title text-white">Purees</h5>
+                            <p class="card-text mt-auto">Versatile ingredient for all your cold drink needs</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class=" col-md-6 mb-4  d-flex" data-aos="fade-down">
+                        <div class="card bg-peach rounded-0 border-0">
+                          <img class="card-img-top rounded-0" src="img/b.jpg" alt="Card image cap-3">
+                          <div class="card-body  text-center pl-5 pr-5 d-flex flex-column" data-aos="fade-up">
+                            <h5 class="card-title text-white">Smoothies</h5>
+                            <p class="card-text mt-auto">Made using real fruit picture in 8 sensational flavours</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class=" col-md-6 mb-4 d-flex" data-aos="fade-down">
+                        <div class="card bg-peach rounded-0 border-0">
+                          <img class="card-img-top rounded-0" src="img/c.jpg" alt="Card image cap-4">
+                          <div class="card-body  text-center pl-5 pr-5 d-flex flex-column" data-aos="fade-up">
+                            <h5 class="card-title text-white">Frappes</h5>
+                            <p class="card-text mt-auto">Made with 100% fruit and vegitables with naturelly occurring sugars</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="Smoothies" class="tab-pane fade" role="tabpannel">
+                    <div class="row mr-md-3 ml-md-3">
+                      <div class=" col-md-6 mb-4 d-flex" data-aos="fade-down">
+                        <div class="card bg-peach rounded-0 border-0">
+                          <img class="card-img-top rounded-0" src="img/b.jpg" alt="Card image cap">
+                          <div class="card-body  text-center pr-5 pl-5 d-flex flex-column" data-aos="fade-up">
+                            <h5 class="card-title text-white">Syrups</h5>
+                            <p class="card-text mt-auto">Registered for vegitarians & vagans by The Vagen Socity</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class=" col-md-6 mb-4 d-flex" data-aos="fade-down">
+                        <div class="card bg-peach rounded-0 border-0">
+                          <img class="card-img-top rounded-0" src="img/c.jpg" alt="Card image cap-2">
+                          <div class="card-body  text-center pr-5 pl-5 d-flex flex-column" data-aos="fade-up">
+                            <h5 class="card-title text-white">Purees</h5>
+                            <p class="card-text mt-auto">Versatile ingredient for all your cold drink needs</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class=" col-md-6 mb-4  d-flex" data-aos="fade-down">
+                        <div class="card bg-peach rounded-0 border-0">
+                          <img class="card-img-top rounded-0" src="img/b.jpg" alt="Card image cap-3">
+                          <div class="card-body  text-center pl-5 pr-5 d-flex flex-column" data-aos="fade-up">
+                            <h5 class="card-title text-white">Smoothies</h5>
+                            <p class="card-text mt-auto">Made using real fruit picture in 8 sensational flavours</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class=" col-md-6 mb-4 d-flex" data-aos="fade-down">
+                        <div class="card bg-peach rounded-0 border-0">
+                          <img class="card-img-top rounded-0" src="img/c.jpg" alt="Card image cap-4">
+                          <div class="card-body  text-center pl-5 pr-5 d-flex flex-column" data-aos="fade-up">
+                            <h5 class="card-title text-white">Frappes</h5>
+                            <p class="card-text mt-auto">Made with 100% fruit and vegitables with naturelly occurring sugars</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="Frappes" class="tab-pane fade" role="tabpannel">
+                    <div class="row mr-md-3 ml-md-3">
+                      <div class=" col-md-6 mb-4 d-flex" data-aos="fade-down">
+                        <div class="card bg-peach rounded-0 border-0">
+                          <img class="card-img-top rounded-0" src="img/b.jpg" alt="Card image cap">
+                          <div class="card-body  text-center pr-5 pl-5 d-flex flex-column" data-aos="fade-up">
+                            <h5 class="card-title text-white">Syrups</h5>
+                            <p class="card-text mt-auto">Registered for vegitarians & vagans by The Vagen Socity</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class=" col-md-6 mb-4 d-flex" data-aos="fade-down">
+                        <div class="card bg-peach rounded-0 border-0">
+                          <img class="card-img-top rounded-0" src="img/c.jpg" alt="Card image cap-2">
+                          <div class="card-body  text-center pr-5 pl-5 d-flex flex-column" data-aos="fade-up">
+                            <h5 class="card-title text-white">Purees</h5>
+                            <p class="card-text mt-auto">Versatile ingredient for all your cold drink needs</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class=" col-md-6 mb-4  d-flex" data-aos="fade-down">
+                        <div class="card bg-peach rounded-0 border-0">
+                          <img class="card-img-top rounded-0" src="img/b.jpg" alt="Card image cap-3">
+                          <div class="card-body  text-center pl-5 pr-5 d-flex flex-column" data-aos="fade-up">
+                            <h5 class="card-title text-white">Smoothies</h5>
+                            <p class="card-text mt-auto">Made using real fruit picture in 8 sensational flavours</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class=" col-md-6 mb-4 d-flex" data-aos="fade-down">
+                        <div class="card bg-peach rounded-0 border-0">
+                          <img class="card-img-top rounded-0" src="img/c.jpg" alt="Card image cap-4">
+                          <div class="card-body  text-center pl-5 pr-5 d-flex flex-column" data-aos="fade-up">
+                            <h5 class="card-title text-white">Frappes</h5>
+                            <p class="card-text mt-auto">Made with 100% fruit and vegitables with naturelly occurring sugars</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="Recipes" class="section our-recipes relative">
+        <div class="bg-img left absolute">
+          <img src="img/recipes/festive-recipe-left.png" alt="recipe image-background" />
+        </div>
+        <div class="bg-img right absolute">
+          <img src="img/recipes/festive-recipe-right.png" alt="recipe image-background 2" />
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-10 offset-md-1 mb-5">
+              <div class="section-heading mb-5 pt-3" data-aos="zoom-in">
+                <h2 class="title text-center display-1 p-3 relative">Festive Recipes</h2>
+              </div>
+              <p class="text-center mb-5 text-white">How to use our products to make everything you creat taste amazing!</p>
+              <div class="row mb-5">
+                <div class="col-lg-3 col-md-6 mb-3">
+                  <div class="festive-recipe relative" data-aos="zoom-in-right">
+                    <img src="img/widgets/square-pink-darkest.png" alt="festive recipe image 1" />
+                    <a class="festive-recipe-title absolute text-white text-center text-decoration-none" href="javascript:void(0);">Winter Wonderland Hot Chocolate</a>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3">
+                  <div class="festive-recipe relative" data-aos="zoom-out-left">
+                    <img src="img/widgets/square-yellow-darken.png" alt="festive recipe image 2" />
+                    <a class="festive-recipe-title absolute text-white text-center text-decoration-none" href="javascript:void(0);">Chocolate <br/>spice</a>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3">
+                  <div class="festive-recipe relative" data-aos="zoom-out-right">
+                    <img src="img/widgets/square-brown.png" alt="festive recipe image 1" />
+                    <a class="festive-recipe-title absolute text-white text-center text-decoration-none" href="javascript:void(0);">Dark and White Chocolate Au Lait</a>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3">
+                  <div class="festive-recipe relative" data-aos="zoom-in">
+                    <img src="img/widgets/square-yellow.png" alt="festive recipe image 1" />
+                    <a class="festive-recipe-title absolute text-white text-center text-decoration-none" href="javascript:void(0);">Chocolate Caramel Bliss</a>
+                  </div>
+                </div>
+              </div>
+              <div class="text-center recipe-btn-wrapper mb-5">
+                <a class="btn btn-default custom-btn btn-recipe border-dark rounded-0 text-dark relative" data-aos="zoom-in" href="#">MORE RECIPES</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="Contact" class="section-contact-us relative">
+        <div class="container">
+          <div class="section-heading mb-md-5" data-aos="zoom-in">
+            <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 mb-4">
+              <h2 class="title text-center display-1 p-3 relative">Connect with us</h2>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 col-md-6 padding-l-10 padding-r-10 mb-3" data-aos="zoom-out-right">
+                <div class="heading mb-3">
+                  <h3 class="title-contact">Newsletter</h3>
+                </div>
+                <div class="msg">
+                  <p class="updates">Receive regular updates about Sweetbird</p>
+                </div>
+                <form class="form-Newsletter" action="index.html" method="post">
+                  <div class="mb-4">
+                    <input type="email" class="form-control rounded-0 border-0 w-100" placeholder="Enter your email address" name="" value="">
+                  </div>
+                  <div class="mb-4">
+                    <button type="button" class="btn btn-default custom-btn signup relative rounded-0" name="button">SIGN UP</button>
+                  </div>
+                </form>
+                <div class="social-link w-80">
+                  <div class="social-title">
+                    <p class="updates">Follow us </p>
+                  </div>
+                  <ul class="nav justify-content-between padding-r-10">
+                    <li class="nav-item"> <a class="nav-link p-0" href="#"> <img class="rounded-circle" src="img/icn-facebook.png" alt=""> </a> </li>
+                    <li class="nav-item"> <a class="nav-link p-0" href="#"> <img class="rounded-circle" src="img/icn-twi2.png" alt=""> </a> </li>
+                    <li class="nav-item"> <a class="nav-link p-0" href="#"> <img class="rounded-circle" src="img/icn-pi.png" alt=""> </a> </li>
+                    <li class="nav-item"> <a class="nav-link p-0" href="#"> <img class="rounded-circle" src="img/icn-insta.png" alt=""> </a> </li>
+                    <li class="nav-item"> <a class="nav-link p-0" href="#"> <img class="rounded-circle" src="img/icn-google.png" alt=""> </a> </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 padding-l-10 padding-r-10 mb-3"  data-aos="zoom-out-up">
+                <div class="heading mb-3">
+                  <h3 class="title-contact">Twitter</h3>
+                </div>
+                <div class="msg">
+                  <p class="updates">Folow us on Twitter</p>
+                </div>
+                <div class="d-flex flex-wrap posts">
+                  <div class="user-time d-block w-100">
+                    <span class="user mr-1 small h6">user@hellosweetbird </span><span class="user post-time small h6">6h6 hours ago</span>
+                  </div>
+                  <div class="post-content d-flex mb-2">
+                    <p class="m-0">Happy thanksgiving to our friends in the USA and everyone else celebreating today.</p>
+                  </div>
+                </div>
+                <div class="d-flex flex-wrap posts">
+                  <div class="user-time d-block w-100">
+                    <span class="user mr-1 small h6">user@hellosweetbird </span><span class="user post-time small h6">6h6 hours ago</span>
+                  </div>
+                  <div class="post-content d-flex mb-2">
+                    <p class="m-0">Happy thanksgiving to our friends in the USA and everyone else celebreating today.</p>
+                  </div>
+                </div>
+                <div class="d-flex flex-wrap posts">
+                  <div class="user-time d-block w-100">
+                    <span class="user mr-1 small h6">user@hellosweetbird </span><span class="user post-time small h6">6h6 hours ago</span>
+                  </div>
+                  <div class="post-content d-flex mb-2">
+                    <p class="m-0">Happy thanksgiving to our friends in the USA and everyone else celebreating today.</p>
+                  </div>
+                </div>
+                <div class="d-flex flex-wrap posts">
+                  <div class="user-time d-block w-100">
+                    <span class="user mr-1 small h6">user@hellosweetbird </span><span class="user post-time small h6">6h6 hours ago</span>
+                  </div>
+                  <div class="post-content d-flex mb-2">
+                    <p class="m-0">Happy thanksgiving to our friends in the USA and everyone else celebreating today.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 padding-l-10 padding-r-10 mb-3" data-aos="zoom-out-left">
+                <div class="heading mb-3">
+                  <h3 class="title-contact">Instagram</h3>
+                </div>
+                <div class="msg">
+                  <p class="updates">Folow us on Instagram</p>
+                </div>
+                <div class="row">
+                  <div class="col-6 mb-4">
+                    <div class="insta-img-wrapper">
+                      <img src="img/b.jpg" alt="thumbnail-image" />
+                    </div>
+                  </div>
+                  <div class="col-6 mb-4">
+                    <div class="insta-img-wrapper">
+                      <img src="img/c.jpg" alt="thumbnail-image" />
+                    </div>
+                  </div>
+                  <div class="col-6 mb-4">
+                    <div class="insta-img-wrapper">
+                      <img src="img/c.jpg" alt="thumbnail-image" />
+                    </div>
+                  </div>
+                  <div class="col-6 mb-4">
+                    <div class="insta-img-wrapper">
+                      <img src="img/b.jpg" alt="thumbnail-image" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="Footer" class="footer p-4 pt-5 bg-footer relative">
+      <div class="footer-top mb-5">
+        <div class="text-center">
+          <a class="btn btn-default custom-btn rounded-0 relative btn-top-link" href="#">TOP OF PAGE</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-logo-wrapper m-auto ">
+          <img src="img/logo-footer.png" alt="footer logo" />
+        </div>
+        <div class="text-center  m-3">
+          <span class="small text-light">&copy; SweetBird 2017</span>
+        </div>
+      </div>
+    </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- <script src="js/WOW.js"> -->
+
+  </script>
+
+  <script>
+    AOS.init({duration: 1200,once: true});
+
+  </script>
+  <script type="text/javascript">
+  var myFunc = function() {
+
+}
+window.onload = function() {
+setTimeout(myFunc, 4000);
+}
+  </script>
+  </body>
+</html>
