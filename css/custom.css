@@ -188,14 +188,7 @@ a:focus{
   background: #feeeeb;
   overflow: hidden;
 }
-/* .bg-banner{
-  background-image: url(../img/banner.png);
-  height: 80vh;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  transform: scale(1.1);
-} */
+
 .scroll-btn{
   height: 35px;
   width: 35px;
